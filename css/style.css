@@ -198,6 +198,11 @@ header.mobile{
     align-items: center;
 }
 
+.post .topo .autor h4{
+    font-weight: 500;
+}
+
+
 .icone-redondo-medio{
     border-radius: 50%;
     width: 32px;
@@ -229,6 +234,26 @@ header.mobile{
     margin: 8px 15px;
 }
 
+.interacao span{
+    font-weight: 500;
+}
+
+.post .bottom .comentario-input{
+    display:flex;
+    font-size: 30px;
+    align-items: center;
+    margin: 20px 12px;
+    padding-top: 10px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.comentario-input input{
+    border: none;
+    margin-left: 10px;
+}
+
+
+
 .icone-redondo-small{
     border-radius: 50%;
     width: 20px;
@@ -250,6 +275,9 @@ header.mobile{
 
 @media (max-width: 614px) {
 
+    body{
+        overflow: hidden;
+    }
     erer{
         display:none;
     }
